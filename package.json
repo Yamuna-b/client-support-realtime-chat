@@ -1,0 +1,49 @@
+{
+  "name": "client-support-realtime-chat",
+  "version": "1.0.0",
+  "description": "A modern, real-time helpdesk chat widget for websites, built with HTML, CSS, JavaScript, Node.js, Express, Socket.io and Firebase. Supports user authentication, agent assignment, chat history, admin dashboard and live messaging between clients and support staff.\r <br><br>\r **Real Time Chat App**\r <div align=\"center\"> <img src=\"https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif\" alt=\"Live Chat Animation\" width=\"320\"/>  </div>",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "npm start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yamuna-b/client-support-realtime-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yamuna-b/client-support-realtime-chat/issues"
+  },
+  "homepage": "/",
+  "dependencies": {
+    "express": "^5.1.0",
+    "firebase": "^11.9.1",
+    "framer-motion": "^12.20.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.6.3",
+    "react-scripts": "^5.0.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "styled-components": "^6.1.19"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
